@@ -143,3 +143,23 @@ li {
 .borda_azul {
     border-bottom: 1px solid #33A8DB80;
 }
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+
+footer figure img {
+    width: 300px;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 4px
+}
+
+#dio-me {
+    color: #33A8DB;
+    font-weight: 700;
+}
