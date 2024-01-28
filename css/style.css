@@ -7,11 +7,11 @@ html {
 
 .inicial {
     background-color: rgb(9, 27, 35);
-    background-image: url('../images/banner.png'), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 169, 221, 0) 50%, rgba(0, 0, 0, 0.6));
+    background-image: url('../images/banner.png'), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 169, 221, 0) 40%, rgba(0, 0, 0, 0.8));
     background-size: cover;
+    background-repeat: no-repeat;
     display: inline-block;
     width: 100%;
-
 }
 
 #logo{
@@ -50,10 +50,10 @@ h1 {
     background: linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     display: block;
     width: 326px;
     height: 57px;
@@ -70,4 +70,54 @@ h1 {
 
 #button-link:hover {
     box-shadow: 1px 1px 20px 1px #1472B7;
+}
+
+.background-base {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 6rem 20%;
+    box-sizing: border-box;
+}
+
+.sub-padrao {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+.texto-padrao {
+    line-height: 1.2rem;
+}
+
+ul {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+li {
+    width: 535px;
+    height: 51px;
+    padding: 16px 50px;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    display: inline-block;
+    background-color: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+}
+
+.modulo {
+    color: #33A8DB;
+}
+
+.borda_azul {
+    border-bottom: 1px solid #33A8DB80;
 }
