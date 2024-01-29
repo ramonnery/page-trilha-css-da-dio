@@ -1,4 +1,4 @@
-#💻 Landing Page Trilha CSS da DIO
+# 💻 Landing Page Trilha CSS da DIO
 Esse foi um projeto para colocar em prática alguns conceitos do CSS que foram aprendidos. Foram eles:
 
 ✅ Seletores
